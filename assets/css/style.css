@@ -165,10 +165,14 @@ label {
 
     body{
         display: flex;
-    
-        align-items: center;
+      align-items: center;
+      justify-content: center;
         min-height: 100vh;
+        background-color: black;
        background-image:url(../img/improve.png);
+       background-size:contain;
+       background-repeat: no-repeat;
+       background-position: center;
        
        font-family: 'Quantico', sans-serif;
     
